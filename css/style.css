@@ -1,0 +1,143 @@
+
+/*
+#######################################################################
+                            FONTE
+#######################################################################
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+/*
+#######################################################################
+                            CSS RESET
+#######################################################################
+*/
+
+/* 
+==========================================================
+	CSS RESET	
+	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+==========================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+#######################################################################
+                            GERAL
+#######################################################################
+*/
+
+body{
+    font-family: "Comfortaa", sans-serif;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+#######################################################################
+                            HEADER
+#######################################################################
+*/
+
+header{
+    
+    margin: 3vw 7vw 0 7vw;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    a{
+        color: black;
+    }
+    a.soudemy{
+        font-size: 1.3rem;
+    }
+    ul{
+        display: flex;
+        li{
+            margin: 0 0.8vw 0 0.8vw;
+            a.atual{
+                background-color: #0E8388;
+                color: white;
+                border-radius: 10px;
+                padding: 8px 15px 8px 15px;
+            }
+        }
+    }
+}
+
+
+/*
+#######################################################################
+                            PLACE
+#######################################################################
+*/
+
+section.place{
+    text-align: center;
+    margin: 4vw 0 6vw 0;
+    h1{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 2vw 0 1.7vw 0;
+    }
+    p{
+        font-size: 1.1rem;
+        font-weight: bold;
+        color: #888888;
+        margin: 0 0 1.5vw 0;
+    }
+    a{
+        background-color: #0E8388;
+        color: white;
+        padding: 5px 20px 5px 20px;
+    }
+}
